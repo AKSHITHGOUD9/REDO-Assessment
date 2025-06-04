@@ -56,15 +56,15 @@ REDO-Assessment/
 ├── Dockerfile
 ├── requirements.txt
 ├── README.md
-├── main.py
-├── config.py
-├── utils.py
-├── models.py
 ├── part-1.ipynb
 ├── part-2.ipynb
-├── testing _part_2.ipynb
-├── Anti-Reproductive Data.csv
-├── Domestic violence Data.csv
+├── app/
+│   ├── main.py
+│   ├── config.py
+│   ├── utils.py
+│   ├── models.py
+│   ├── Anti-Reproductive Data.csv
+│   └── Domestic violence Data.csv
 ```
 
 ---

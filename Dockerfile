@@ -14,11 +14,10 @@ COPY requirements.txt ./
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy all project files
-COPY . .
+COPY app/ ./
 
 # Expose Streamlit port
 EXPOSE 8502
 
 # Set Streamlit to run the app
-CMD streamlit run main.py --server.port=8502 --server.address=0.0.0.0 \
-    && echo "\n\nYour Streamlit app is running! Copy and paste or cmd/ctrl+click the URL above to open it in your browser.\n\n" 
+CMD ["streamlit", "run", "main.py", "--server.port=8502", "--server.address=0.0.0.0"]
