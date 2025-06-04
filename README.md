@@ -100,4 +100,3 @@ For questions or support, contact:
 ---
 
 > _This project was developed as part of the REDO Assessment. It demonstrates best practices in ethical, responsible, and reproducible data science._
-same
